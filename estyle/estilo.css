@@ -4,8 +4,6 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Libre Baskerville";
-}
-body {
   overflow-x: hidden;
 }
 header {
