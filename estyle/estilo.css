@@ -1,11 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap");
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: "Libre Baskerville";
 }
-body{
+body {
   overflow-x: hidden;
 }
 header {
@@ -70,23 +70,22 @@ ul {
   color: #000080;
   font-weight: bolder;
 }
-.planos{
+.planos {
   max-width: 1200px;
   margin: auto;
 }
-.photos{
+.photos {
   display: flex;
 }
-.photo{
- margin-right: 30px;
-
+.photo {
+  margin-right: 30px;
 }
-.photo img{
+.photo img {
   width: 350px;
   height: 440px;
   border-radius: 50px;
 }
-.contrate{
+.contrate {
   display: flex;
   justify-content: center;
   margin-top: 10px;
@@ -107,75 +106,75 @@ ul {
   font-weight: bolder;
   color: #fff;
 }
-.banner-body{
+.banner-body {
   width: 100%;
 }
-.banner-body img{
+.banner-body img {
   width: 100%;
   height: 600px;
 }
-.informacao{
+.informacao {
   margin-top: -35px;
   background-color: #000080;
 }
-.informacao .container{
+.informacao .container {
   flex-direction: column;
 }
-.info{
+.info {
   color: #fff;
   line-height: 35px;
 }
-.info h2{
+.info h2 {
   font-size: 30px;
   padding: 10px;
   margin-top: 30px;
   margin-bottom: 20px;
 }
-.check img{
+.check img {
   width: 60px;
   mix-blend-mode: lighten;
 }
-.check{
+.check {
   padding-bottom: 20px;
 }
-.check1{
+.check1 {
   display: flex;
   align-items: center;
   color: #fff;
   padding: 10px 0;
 }
-.check1 h2{
+.check1 h2 {
   margin-left: 15px;
 }
-.photo-localidade{
+.photo-localidade {
   width: 100%;
   height: auto;
 }
-.photo-localidade img{
+.photo-localidade img {
   width: 101%;
   height: 500px;
 }
-.footer{
+.footer {
   margin-top: 30px;
   display: flex;
 }
-.photo-footer{
+.photo-footer {
   width: 400px;
   height: 400px;
 }
-.footer-icone{
+.footer-icone {
   width: 100%;
 }
-.photo-footer img{
+.photo-footer img {
   width: 100%;
-  border-radius:80px;
+  border-radius: 80px;
 }
-.footer-tel{
+.footer-tel {
   display: flex;
   align-items: center;
   margin-left: 90px;
 }
-.footer-cel h1{
+.footer-cel h1 {
   color: #000080;
   font-weight: 700;
   font-size: 35px;
@@ -186,36 +185,35 @@ ul {
   font-size: 18px;
   margin-bottom: 20px;
 }
-.footer-rede{
+.footer-rede {
   padding: 20px 0;
 }
-.footer-rede img{
+.footer-rede img {
   width: 40px;
   margin-top: 50px;
   background-color: #000080;
   cursor: pointer;
 }
-.menuMobile{
+.menuMobile {
   width: 40px;
   height: 40px;
   background-color: #000080;
-  display: none;  
+  display: none;
   margin-top: -14px;
 }
-.mm-line{
+.mm-line {
   height: 4px;
   background-color: #280;
 }
 
-@media (max-width:700px){
-
-  .menuMobile{
+@media (max-width: 700px) {
+  .menuMobile {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     margin-right: 10px;
   }
-  nav ul{
+  nav ul {
     width: 100%;
     display: none;
     height: 250px;
@@ -226,89 +224,91 @@ ul {
     padding: 10px;
     line-height: 50px;
   }
-  .menu li a{
+  .menu li a {
     color: #fff;
   }
-  li a:hover{
+  li a:hover {
     border-bottom: 2px solid #280;
-  
   }
-  .banner img{
+  .banner img {
     width: 100%;
     height: auto;
   }
-  .banner-photo img{
+  .banner-photo img {
     width: 430px;
   }
-  .logo img{
+  .logo img {
     margin-left: 10px;
   }
-  .banner-title{
+  .banner-title {
     flex-direction: column;
   }
-  .banner-title .title h2{
+  .banner-title .title h2 {
     font-size: 18px;
   }
-  .photos{
+  .photos {
     flex-direction: column;
     text-align: center;
   }
-  .photo{
+  .photo {
     margin-bottom: 30px;
   }
-  .info h2{
+  .informacao {
+    width: 388px;
+  }
+  .info h2 {
     text-align: center;
   }
-  .info h2{
+  .info h2 {
     font-size: 25px;
   }
-  .check1{
+  .check1 {
     margin-left: 20px;
   }
-  .check1 h2{
+  .check1 h2 {
     font-size: 15px;
   }
-  .check1 .praticidade{
+  .check1 .praticidade {
     font-size: 13px;
   }
-  .check1 img{
+  .check1 img {
     width: 30px;
   }
-  .photo-localidade{
+  .photo-localidade {
     width: 101%;
   }
-  .footer{
+  .footer {
     flex-direction: column;
   }
-  .footer-tel{
+  .footer-tel {
     text-align: left;
   }
-  .footer-cel h1{
+  .footer-cel h1 {
     margin-top: -30px;
     text-align: center;
     font-size: 24px;
   }
-  .footer-cel p{
+  .footer-cel p {
     text-align: center;
     max-width: 250px;
   }
-  .footer-cel .ende{
+  .footer-cel .ende {
     font-size: 17px;
   }
-  .footer-rede{
+  .footer-rede {
     margin-top: -20px;
   }
-  .photo-footer{
+  .photo-footer {
     width: 300px;
   }
-  .footer-icone{
+  .footer-icone {
     margin-left: 70px;
   }
-  .footer-icone img{
+  .footer-icone img {
     width: 100%;
     padding: 10px;
   }
-  .footer-rede{
+  .footer-rede {
     display: flex;
     justify-content: center;
   }
