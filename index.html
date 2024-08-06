@@ -6,15 +6,19 @@
     <link rel="stylesheet" href="estyle/estilo.css" />
     <script src="js/index.js"></script>
     <script>
-      window.onload = function(){
-        document.querySelector(".menuMobile").addEventListener("click", function(){
-          if(document.querySelector(".menu nav ul").style.display === "flex"){
-            document.querySelector(".menu nav ul").style.display = 'none'
-          }else{
-            document.querySelector(".menu nav ul").style.display = 'flex'
-          }
-        })
-      }
+      window.onload = function () {
+        document
+          .querySelector(".menuMobile")
+          .addEventListener("click", function () {
+            if (
+              document.querySelector(".menu nav ul").style.display === "flex"
+            ) {
+              document.querySelector(".menu nav ul").style.display = "none";
+            } else {
+              document.querySelector(".menu nav ul").style.display = "flex";
+            }
+          });
+      };
     </script>
     <title>TrioTelecom</title>
   </head>
@@ -99,34 +103,36 @@
         </div>
       </div>
     </section>
-  
+
     <section class="banner-body">
       <div class="banner-photo">
         <img src="image/banner2.jfif" />
       </div>
     </section>
     <section class="informacao">
-        <div class="info" id="somos">
-          <h2>
-            Somos a melhor solução de
-            <span style="color: green">internet fibra,</span> tenha:
+      <div class="info" id="somos">
+        <h2>
+          Somos a melhor solução de
+          <span style="color: green">internet fibra,</span> tenha:
+        </h2>
+      </div>
+
+      <div class="check">
+        <div class="check1">
+          <img src="image/check.jpg" />
+          <h2>Conexão Segura</h2>
+        </div>
+        <div class="check1">
+          <img src="image/check.jpg" />
+          <h2>Atendimento de qualidade e humanizado</h2>
+        </div>
+        <div class="check1">
+          <img src="image/check.jpg" />
+          <h2 class="praticidade">
+            Praticidade e agilidade na solução de problemas
           </h2>
         </div>
-      
-        <div class="check">
-          <div class="check1">
-            <img src="image/check.jpg" />
-            <h2>Conexão Segura</h2>
-          </div>
-          <div class="check1">
-            <img src="image/check.jpg" />
-            <h2>Atendimento de qualidade e humanizado</h2>
-          </div>
-          <div class="check1">
-            <img src="image/check.jpg" />
-            <h2 class="praticidade">Praticidade e agilidade na solução de problemas</h2>
-          </div>
-        </div>
+      </div>
     </section>
 
     <section class="banner-local">
@@ -134,29 +140,25 @@
         <img src="image/localidade.jfif" />
       </div>
     </section>
-    <!--
     <section class="banner-footer">
-      <div class="container">
-        <div class="footer">
-          <div class="photo-footer">
-            <div class="footer-icone">
-              <img src="image/banner-footer.jfif" />
-            </div>
+      <div class="footer">
+        <div class="photo-footer">
+          <div class="footer-icone">
+            <img src="image/banner-footer.jfif" />
           </div>
-          <div class="footer-tel" id="contato">
-            <div class="footer-cel">
-              <h1>Fale Conosco</h1>
-              <p>(21) 0000-0000</p>
-              <p class="ende">Estrada da Cancela Preta, 40</p>
-              <div class="footer-rede">
-                <img src="image/lin.png" />
-                <img src="image/insta.jpg" />
-              </div>
+        </div>
+        <div class="footer-tel" id="contato">
+          <div class="footer-cel">
+            <h1>Fale Conosco</h1>
+            <p>(21) 0000-0000</p>
+            <p class="ende">Estrada da Cancela Preta, 40</p>
+            <div class="footer-rede">
+              <img src="image/lin.png" />
+              <img src="image/insta.jpg" />
             </div>
           </div>
         </div>
       </div>
     </section>
-  
   </body>
 </html>
