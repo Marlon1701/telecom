@@ -67,8 +67,8 @@ ul {
   margin-top: 30px;
   margin-bottom: 30px;
   text-transform: uppercase;
-  color: #000;
-  font-weight: 700;
+  color: #000080;
+  font-weight: bolder;
 }
 .planos{
   max-width: 1200px;
@@ -114,7 +114,23 @@ ul {
   width: 100%;
   height: 600px;
 }
-
+.informacao{
+  margin-top: -4px;
+  background-color: #000080;
+}
+.informacao .container{
+  flex-direction: column;
+}
+.info{
+  color: #fff;
+  line-height: 35px;
+}
+.info h2{
+  font-size: 30px;
+  padding: 10px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
 .check img{
   width: 60px;
   mix-blend-mode: lighten;
@@ -192,13 +208,8 @@ ul {
   background-color: #280;
 }
 
-@media (max-width:500px){
-  body{
-    overflow-x: hidden;
-  }
-  header{
-    width: 50px;
-  }
+@media (max-width:700px){
+
   .menuMobile{
     display: flex;
     flex-direction: column;
@@ -224,17 +235,8 @@ ul {
     width: 100%;
   }
   .banner img{
-    width: 300px;
+    width: 100%;
     height: auto;
-  }
-  .banner-photo img{
-    width: 300px;
-  }
-  .info{
-    width: 100px;
-  }
-  .photo-localidade{
-    width: 300px;
   }
   .logo img{
     margin-left: 10px;
