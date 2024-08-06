@@ -208,7 +208,7 @@ ul {
   background-color: #280;
 }
 
-@media (max-width:700px){
+@media (max-width:500px){
   body{
     overflow-x: hidden;
   }
