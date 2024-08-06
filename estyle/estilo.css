@@ -196,6 +196,9 @@ ul {
   body{
     overflow-x: hidden;
   }
+  header{
+    width: 50px;
+  }
   .menuMobile{
     display: flex;
     flex-direction: column;
