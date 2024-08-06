@@ -257,6 +257,9 @@ ul {
   .photo{
     margin-bottom: 30px;
   }
+  .info{
+    width: 100%;
+  }
   .info h2{
     text-align: center;
   }
