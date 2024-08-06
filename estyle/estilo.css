@@ -158,11 +158,8 @@ ul {
   display: flex;
 }
 .photo-footer {
-  width: 400px;
-  height: 400px;
-}
-.footer-icone {
   width: 100%;
+  height: auto;
 }
 .photo-footer img {
   width: 100%;
@@ -190,7 +187,6 @@ ul {
 .footer-rede img {
   width: 40px;
   margin-top: 50px;
-  background-color: #000080;
   cursor: pointer;
 }
 .menuMobile {
@@ -294,12 +290,7 @@ ul {
   .footer-rede {
     margin-top: -20px;
   }
-  .photo-footer {
-    width: 300px;
-  }
-  .footer-icone {
-    margin-left: 70px;
-  }
+ 
   .footer-icone img {
     width: 100%;
     padding: 10px;
