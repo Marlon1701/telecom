@@ -106,9 +106,6 @@ ul {
   font-weight: bolder;
   color: #fff;
 }
-.banner-body {
-  width: 100%;
-}
 .banner-body img {
   width: 100%;
   height: 600px;
@@ -235,7 +232,7 @@ ul {
     height: auto;
   }
   .banner-photo img {
-    width: 430px;
+    width: 100%;
   }
   .logo img {
     margin-left: 10px;
