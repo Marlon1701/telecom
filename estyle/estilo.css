@@ -60,7 +60,6 @@ ul {
 .title {
   display: flex;
   justify-content: center;
-  margin-left: -30px;
 }
 .title h2 {
   font-size: 30px;
@@ -239,8 +238,10 @@ ul {
   .banner-title {
     flex-direction: column;
   }
+
   .banner-title .title h2 {
-    font-size: 18px;
+    font-size: 20px;
+    text-align: center;
   }
   .photos {
     flex-direction: column;
