@@ -275,6 +275,9 @@ ul {
   .check1 img{
     width: 30px;
   }
+  .photo-localidade{
+    width: 100%;
+  }
   .footer{
     flex-direction: column;
   }
