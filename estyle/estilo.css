@@ -124,6 +124,7 @@ ul {
 .info{
   color: #fff;
   line-height: 35px;
+  width: 100%;
 }
 .info h2{
   font-size: 30px;
@@ -150,7 +151,6 @@ ul {
 .photo-localidade{
   width: 100%;
   height: auto;
-  overflow-x: hidden;
 }
 .photo-localidade img{
   width: 101%;
