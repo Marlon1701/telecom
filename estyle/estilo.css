@@ -237,8 +237,17 @@ ul {
     width: 100%;
   }
   .banner img{
-    width: 100%;
+    width: 300px;
     height: auto;
+  }
+  .banner-photo img{
+    width: 300px;
+  }
+  .info{
+    width: 200px;
+  }
+  .photo-localidade{
+    width: 300px;
   }
   .logo img{
     margin-left: 10px;
