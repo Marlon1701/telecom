@@ -144,6 +144,9 @@ ul {
 .check1 h2 {
   margin-left: 15px;
 }
+.photo-localidade {
+  width: 100%;
+}
 .photo-localidade img {
   width: 100%;
   height: auto;
@@ -269,7 +272,7 @@ ul {
     width: 30px;
   }
   .photo-localidade {
-    width: 101%;
+    width: 100%;
   }
   .footer {
     flex-direction: column;
