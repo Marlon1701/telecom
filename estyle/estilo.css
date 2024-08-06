@@ -276,7 +276,7 @@ ul {
     width: 30px;
   }
   .photo-localidade{
-    width: 430px;
+    width: 101%;
   }
   .footer{
     flex-direction: column;
