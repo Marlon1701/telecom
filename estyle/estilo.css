@@ -79,6 +79,7 @@ ul {
 }
 .photo {
   margin-right: 30px;
+  width: 100%;
 }
 .photo img {
   width: 350px;
@@ -229,7 +230,7 @@ ul {
     width: 100%;
     height: auto;
   }
-  .banner-photo img {
+  .banner-photos img {
     width: 100%;
   }
   .logo img {
