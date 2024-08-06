@@ -113,6 +113,7 @@ ul {
 .informacao {
   margin-top: -35px;
   background-color: #000080;
+  width: 100%;
 }
 .informacao .container {
   flex-direction: column;
